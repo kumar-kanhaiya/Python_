@@ -1,4 +1,4 @@
-list = ["kanhaiya", "keshav" , "shubham" , "harsh" , "manish"]
+list = ["kanhaiya", "keshav" , "shubham" , "harsh" , "manish" , "tanishaq" ]
 
 count = 0;
 name = input("Enter your name for check ")
