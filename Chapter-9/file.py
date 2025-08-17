@@ -1,4 +1,5 @@
-f = open("file.txt")
-data = f.read;
-print(data);
+st = "kanhaiya kumar singh "
+f = open("file.txt","w")
+f.write(st);
+
 f.close()
