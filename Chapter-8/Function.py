@@ -5,4 +5,10 @@ def average(a,b,c):
     av = (a+b+c)/3;
     return av;
 
-print(average(5,6,7))
+print(average(5,6,7)) #function call 
+
+
+def greeating(name):
+    print(f"Good morning {name}")
+
+greeating("kanhaiya")    
