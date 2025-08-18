@@ -8,7 +8,7 @@ class Employee:
 
 class programmer(Employee):
     company = "itc infotech "
-    def show(self):
+    def showLanguage(self):
         print(f"the name is {self.name} and the salary is {self.salary}")
 
 
