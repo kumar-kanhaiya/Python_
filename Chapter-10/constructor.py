@@ -2,7 +2,10 @@ class Employee:
     language = "python"
     salary = 120000
 
-    def __init__(self): # dunder method which is automatically called 
+    def __init__(self , name , salary , language): # dunder method which is automatically called 
+        self.name = name;
+        self.salary = salary;
+        self.language = language
         print("Creating new object")
 
     def getInfo(self):
@@ -12,7 +15,7 @@ class Employee:
     def great():
         print("Good morning")    
 
-kanhaiya = Employee();
+kanhaiya = Employee("kanhaiya",125000,"java");
 kanhaiya.getInfo()
 kanhaiya.great()        
 
