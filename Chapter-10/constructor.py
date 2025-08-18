@@ -2,7 +2,7 @@ class Employee:
     language = "python"
     salary = 120000
 
-    def __init__(self):
+    def __init__(self): # dunder method which is automatically called 
         print("Creating new object")
 
     def getInfo(self):
