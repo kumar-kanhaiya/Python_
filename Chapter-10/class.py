@@ -6,3 +6,7 @@ class Employee:
 kanhaiya = Employee();
 kanhaiya.name = "suraj"
 print(kanhaiya.name)    
+
+# name is object attribute and salary and language are class atribute
+
+
